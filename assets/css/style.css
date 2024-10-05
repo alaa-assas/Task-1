@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar{
+    width: 100px;
+}
+
+.Navbar i{
+    border: 4px double rgb(36, 214, 214);
+    border-radius: 100px;
+    padding: 30px;
+}
+
+.all-section{
+    background-color: #d6e0e3;
+    border: 0 solid transparent;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.hero h2{
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hero h1{
+    text-align: center;
+}
+
+.about-me h3 , .about-me p{
+    text-align: center;
+    padding: 10px;
+}
+.about-me p span{
+    font-weight: 600;
+}
+.contact-me h3{
+    text-align: center;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.contact-me .contact-link{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.contact-me i{
+    color: rgb(36, 214, 214);
+    background-color: #F5F8F9;
+    margin: 2px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.contact-me a{
+    color: black;
+    text-decoration: none;
+}
+
+.follow-me h3{
+    text-align: center;
+}
+
+.follow-me .follow-me-link{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.follow-me .follow-me-link a{
+    background-color: #F5F8F9;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.box-info{
+    min-width: 225px;
+    min-height: 100px;
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.center{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.address h3{
+    display: inline;
+    text-align: center;
+}
+
+.address i{
+    color: rgb(36, 214, 214);
+    padding: 5px;
+}
+
+
+.interests-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.interests-info div{
+    padding: 5px;;
+}
+
+.contact-me-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.contact-me-form h3{
+    text-align: center;
+}
+
+form input , form textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(36, 214, 214);
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(36, 214, 214);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(36, 214, 214);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+ ul{
+	margin:0px;
+}
+
+ li{
+	font-size:14px;
+	margin-left:25px;
+	padding:5px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
